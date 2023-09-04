@@ -32,6 +32,12 @@ fun main() {
      * Group Anagram
      */
 
-    val groupAnagram = groupAnagrams(arrayOf("eat","tea","tan","ate","nat","bat"))
-    println(groupAnagram)
+//    val groupAnagram = groupAnagrams(arrayOf("eat","tea","tan","ate","nat","bat"))
+//    println(groupAnagram)
+
+    /**
+     * Top K Frequent Element
+     */
+    val result = topKFrequentElement(listOf(1,1,1,5,5,5,5,5,4,4,6,6,6,6,6,0), 2)
+    println(result)
 }

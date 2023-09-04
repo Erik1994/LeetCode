@@ -18,7 +18,10 @@ fun isAnagramSolutionTwo(s: String, t: String): Boolean {
         countS[c] = 1 + (countS[c] ?: 0)
         countT[t[index]] = 1 + (countT[t[index]] ?: 0)
     }
-    return countS == countT
+    countS.forEach { (t, u) ->
+        if (u != countT[t]) {
+            return false
+        }
+    }
+    return true
 }
-
-

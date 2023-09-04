@@ -20,17 +20,16 @@ fun twoSumSolution1(nums: IntArray, target: Int): IntArray {
     return intArrayOf()
 }
 
-fun twoSumSolution2(nums: IntArray, target: Int): IntArray {
-    val prevMap = HashMap<Int, Int>()
-    for (i in nums.indices) {
-        val num = nums[i]
-        val diff = target - num
-        if (prevMap.containsKey(num)) {
-            return intArrayOf(prevMap[num]!!, i)
+fun twoSumSolution2(arr: Array<Int>, k: Int): Array<Int> {
+    val hashMap = hashMapOf<Int, Int>()
+    arr.forEachIndexed { index, i ->
+        val diff = k - i
+        if (hashMap.containsKey(diff)) {
+            return arrayOf(hashMap[diff]!!, index)
         }
-        prevMap[diff] = i
+        hashMap[i] = index
     }
-    return intArrayOf()
+    return arrayOf()
 }
 
 
