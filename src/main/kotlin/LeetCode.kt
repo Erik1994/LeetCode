@@ -1,3 +1,4 @@
+import two_pointers.bestTimeToBuySellStock
 import two_pointers.validPalindromeSolution2
 
 fun main() {
@@ -49,7 +50,19 @@ fun main() {
 //    val result = arrayItemProduct(listOf(1,2,3,4))
 //    println(result)
 
+    /**
+     * Is valid palindrome
+     */
 
-    val isPalindrome = validPalindromeSolution2("A man, a plan, a canal: Panama")
-    println(isPalindrome)
+//    val isPalindrome = validPalindromeSolution2("A man, a plan, a canal: Panama")
+//    println(isPalindrome)
+
+    /**
+     * Best time to buy and sell stock
+     */
+
+    val profit1 = bestTimeToBuySellStock(intArrayOf(7,1,5,3,6,4))
+    val profit2 = bestTimeToBuySellStock(intArrayOf(7,6,4,3,1))
+    println(profit1)
+    println(profit2)
 }
