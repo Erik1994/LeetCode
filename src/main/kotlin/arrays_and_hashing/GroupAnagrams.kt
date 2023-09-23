@@ -1,3 +1,5 @@
+package arrays_and_hashing
+
 /**
  *
  * Given an array of strings [strs], group the anagrams together.

@@ -1,3 +1,5 @@
+package arrays_and_hashing
+
 /**
  *
  * Given two strings [s] and [t], return true if t is an anagram of s, and false otherwise.
@@ -18,8 +20,8 @@ fun isAnagramSolutionTwo(s: String, t: String): Boolean {
         countS[c] = 1 + (countS[c] ?: 0)
         countT[t[index]] = 1 + (countT[t[index]] ?: 0)
     }
-    countS.forEach { (t, u) ->
-        if (u != countT[t]) {
+    countS.keys.forEach { key ->
+        if (countS[key] != countT[key]) {
             return false
         }
     }

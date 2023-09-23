@@ -1,4 +1,4 @@
-import java.util.*
+import two_pointers.validPalindromeSolution2
 
 fun main() {
     /**
@@ -38,6 +38,18 @@ fun main() {
     /**
      * Top K Frequent Element
      */
-    val result = topKFrequentElement(listOf(1,1,1,5,5,5,5,5,4,4,6,6,6,6,6,0), 2)
-    println(result)
+
+//    val result = topKFrequentElement(listOf(1,1,1,5,5,5,5,5,4,4,6,6,6,6,6,0), 2)
+//    println(result)
+
+    /**
+     * Product of Array Except Self
+     */
+
+//    val result = arrayItemProduct(listOf(1,2,3,4))
+//    println(result)
+
+
+    val isPalindrome = validPalindromeSolution2("A man, a plan, a canal: Panama")
+    println(isPalindrome)
 }

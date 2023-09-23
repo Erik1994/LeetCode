@@ -1,3 +1,5 @@
+package arrays_and_hashing
+
 /**
  *
  * Given an array of integers [nums] and an integer [target],
