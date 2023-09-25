@@ -11,19 +11,19 @@ package two_pointers
  **/
 
 fun bestTimeToBuySellStock(prices: IntArray): Int {
-    var left = 0
-    var right = 1
+    var dayToBuy = 0
+    var dayToSell = 1
     var profit = 0
-    while (right < prices.size) {
-        if (prices[right] < prices[left]) {
-            left = right
-            ++right
+    while (dayToSell < prices.size) {
+        if (prices[dayToSell] < prices[dayToBuy]) {
+            dayToBuy = dayToSell
+            ++dayToSell
         } else {
-            val temp = prices[right] - prices[left]
+            val temp = prices[dayToSell] - prices[dayToBuy]
             if (temp > profit) {
                 profit = temp
             }
-            ++right
+            ++dayToSell
         }
     }
     return profit

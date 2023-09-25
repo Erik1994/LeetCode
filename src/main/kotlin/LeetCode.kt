@@ -61,8 +61,10 @@ fun main() {
      * Best time to buy and sell stock
      */
 
-    val profit1 = bestTimeToBuySellStock(intArrayOf(7,1,5,3,6,4))
-    val profit2 = bestTimeToBuySellStock(intArrayOf(7,6,4,3,1))
-    println(profit1)
-    println(profit2)
+//    val profit1 = bestTimeToBuySellStock(intArrayOf(7,1,5,3,6,4))
+//    val profit2 = bestTimeToBuySellStock(intArrayOf(7,6,4,3,1))
+//    println(profit1)
+//    println(profit2)
+
+
 }
