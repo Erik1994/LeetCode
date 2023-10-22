@@ -1,4 +1,5 @@
 import two_pointers.bestTimeToBuySellStock
+import two_pointers.maxArea
 import two_pointers.validPalindromeSolution2
 
 fun main() {
@@ -66,5 +67,11 @@ fun main() {
 //    println(profit1)
 //    println(profit2)
 
+    /**
+     * Container with most water
+     */
+
+    println(maxArea(height = intArrayOf(1,8,6,2,5,4,8,3,7)))
+    println(maxArea(height = intArrayOf(1,1)))
 
 }
