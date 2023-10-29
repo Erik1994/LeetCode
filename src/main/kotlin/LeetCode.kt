@@ -1,4 +1,4 @@
-import two_pointers.maxArea
+import stack.isValid
 
 fun main() {
     /**
@@ -69,7 +69,13 @@ fun main() {
      * Container with most water
      */
 
-    println(maxArea(height = intArrayOf(1,8,6,2,5,4,8,3,7)))
-    println(maxArea(height = intArrayOf(1,1)))
+//    println(maxArea(height = intArrayOf(1,8,6,2,5,4,8,3,7)))
+//    println(maxArea(height = intArrayOf(1,1)))
 
+    /**
+     * Valid parentheses
+     */
+
+    val s = "{({})[]}"
+    println(isValid(s))
 }
