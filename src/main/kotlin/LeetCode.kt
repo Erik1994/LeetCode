@@ -1,6 +1,4 @@
-import two_pointers.bestTimeToBuySellStock
 import two_pointers.maxArea
-import two_pointers.validPalindromeSolution2
 
 fun main() {
     /**
