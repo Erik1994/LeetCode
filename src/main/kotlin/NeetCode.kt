@@ -1,4 +1,5 @@
-import stack.isValid
+import google.Interval
+import google.minMeetingRooms
 
 fun main() {
     /**
@@ -75,7 +76,13 @@ fun main() {
     /**
      * Valid parentheses
      */
+//
+//    val s = "{({})[]}"
+//    println(isValid(s))
 
-    val s = "{({})[]}"
-    println(isValid(s))
+    /**
+     * Meeting room 2
+     */
+    val minCount = minMeetingRooms(arrayOf(Interval(0, 30), Interval(5, 10), Interval(10, 20)))
+    println(minCount)
 }
