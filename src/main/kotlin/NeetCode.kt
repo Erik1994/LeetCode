@@ -1,3 +1,4 @@
+import arrays_and_hashing.removeDuplicates
 import google.Interval
 import google.minMeetingRooms
 
@@ -83,6 +84,16 @@ fun main() {
     /**
      * Meeting room 2
      */
+//    val minCount = minMeetingRooms(arrayOf(Interval(0, 30), Interval(5, 10), Interval(10, 20)))
+//    println(minCount)
+
+    /**
+     * Remove duplicates from sorted array
+     */
+
+    val k = removeDuplicates(intArrayOf(1,1,2))
+    println(k)
+
 //    val minCount = minMeetingRooms(arrayOf(Interval(0, 30), Interval(5, 10), Interval(10, 20)))
 //    println(minCount)
 
