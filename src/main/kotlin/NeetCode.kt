@@ -83,6 +83,10 @@ fun main() {
     /**
      * Meeting room 2
      */
-    val minCount = minMeetingRooms(arrayOf(Interval(0, 30), Interval(5, 10), Interval(10, 20)))
-    println(minCount)
+//    val minCount = minMeetingRooms(arrayOf(Interval(0, 30), Interval(5, 10), Interval(10, 20)))
+//    println(minCount)
+
+    /**
+     * Detect squares
+     */
 }
