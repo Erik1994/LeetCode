@@ -1,3 +1,4 @@
+import arrays_and_hashing.getConcatenation
 import arrays_and_hashing.removeDuplicates
 import google.Interval
 import google.minMeetingRooms
@@ -92,11 +93,8 @@ fun main() {
      * Remove duplicates from sorted array
      */
 
-    val k = removeDuplicates(intArrayOf(1,1,2))
-    println(k)
-
-//    val minCount = minMeetingRooms(arrayOf(Interval(0, 30), Interval(5, 10), Interval(10, 20)))
-//    println(minCount)
+//    val k = removeDuplicates(intArrayOf(1,1,2))
+//    println(k)
 
     /**
      * Detect squares
@@ -107,6 +105,18 @@ fun main() {
      * Baseball game
      */
 
-    val scoreSum = calPoints(arrayOf("5","2","C","D","+"))
-    println(scoreSum)
+//    val scoreSum = calPoints(arrayOf("5","2","C","D","+"))
+//    println(scoreSum)
+
+    /**
+     * Concatenation of array
+     */
+
+    getConcatenation(intArrayOf(1,3,2,1), 2).forEach {
+        println(it)
+    }
+    getConcatenation(intArrayOf(1,3,2,1)).forEach {
+        println(it)
+    }
+
 }
