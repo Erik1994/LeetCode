@@ -1,6 +1,7 @@
 import arrays_and_hashing.removeDuplicates
 import google.Interval
 import google.minMeetingRooms
+import stack.calPoints
 
 fun main() {
     /**
@@ -100,4 +101,12 @@ fun main() {
     /**
      * Detect squares
      */
+
+
+    /**
+     * Baseball game
+     */
+
+    val scoreSum = calPoints(arrayOf("5","2","C","D","+"))
+    println(scoreSum)
 }
