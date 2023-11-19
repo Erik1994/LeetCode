@@ -10,5 +10,5 @@ package recursion
  **/
 
 fun climbStairs(n: Int): Int {
-
+    return 0
 }

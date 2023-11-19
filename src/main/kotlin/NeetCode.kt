@@ -2,6 +2,7 @@ import arrays_and_hashing.getConcatenation
 import arrays_and_hashing.removeDuplicates
 import google.Interval
 import google.minMeetingRooms
+import sorting.insertionSort
 import stack.calPoints
 
 fun main() {
@@ -112,11 +113,20 @@ fun main() {
      * Concatenation of array
      */
 
-    getConcatenation(intArrayOf(1,3,2,1), 2).forEach {
-        println(it)
-    }
-    getConcatenation(intArrayOf(1,3,2,1)).forEach {
-        println(it)
-    }
+//    getConcatenation(intArrayOf(1,3,2,1), 2).forEach {
+//        println(it)
+//    }
+//    getConcatenation(intArrayOf(1,3,2,1)).forEach {
+//        println(it)
+//    }
 
+    /**
+     * Insertion sort
+     */
+
+    val array = intArrayOf(2,5,2,3,0,1)
+    insertionSort(array)
+    array.forEach {
+        print("$it, ")
+    }
 }
