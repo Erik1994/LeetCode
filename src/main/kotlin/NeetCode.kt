@@ -3,6 +3,7 @@ import arrays_and_hashing.removeDuplicates
 import google.Interval
 import google.minMeetingRooms
 import sorting.insertionSort
+import sorting.mergeSort
 import stack.calPoints
 
 fun main() {
@@ -124,8 +125,17 @@ fun main() {
      * Insertion sort
      */
 
-    val array = intArrayOf(2,5,2,3,0,1)
-    insertionSort(array)
+//    val array = intArrayOf(2,5,2,3,0,1)
+//    insertionSort(array)
+//    array.forEach {
+//        print("$it, ")
+//    }
+
+    /**
+     * Merge sort
+     */
+
+    val array = mergeSort(intArrayOf(2,5,2,3,0,1))
     array.forEach {
         print("$it, ")
     }
