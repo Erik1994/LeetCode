@@ -1,4 +1,5 @@
 import arrays_and_hashing.getConcatenation
+import arrays_and_hashing.longestConsecutive
 import arrays_and_hashing.removeDuplicates
 import google.Interval
 import google.minMeetingRooms
@@ -134,9 +135,17 @@ fun main() {
     /**
      * Merge sort
      */
+//
+//    val array = mergeSort(intArrayOf(2,5,2,3,0,1))
+//    array.forEach {
+//        print("$it, ")
+//    }
 
-    val array = mergeSort(intArrayOf(2,5,2,3,0,1))
-    array.forEach {
-        print("$it, ")
-    }
+//    /**
+//     * Longest Consecutive Sequence
+//     */
+//
+//    println(longestConsecutive(intArrayOf(100, 4, 200, 1,3,2)))
+
+
 }
